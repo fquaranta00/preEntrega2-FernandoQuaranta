@@ -1,20 +1,42 @@
-.nav-list {
-padding: 0;
+.marca {
+    font-size:x-large;
 }
 
-/* .contenedro-logo {
-padding: 100px;
-} */
-
-.imagen-marca img{
+.imagen-marca img {
     width: 30px;
     height: 30px;
 }
 
-.nav {
+.nav-lista {
     font-size:larger;
 }
 
-.nav {
-    background-color: rgba(111, 185, 0, 0.82);
+
+ .navbar,.imagen-marca {
+    background-color: rgb(192, 255, 115);
+}
+
+.nav-pag:hover {
+    
+    text-shadow: rgb(109, 88, 0) 1px 0 12px;
+}
+
+
+.nav-desplegable {
+    background-color: rgb(192, 255, 115);
+    border: 0px;
+}
+
+.nav-tog-icono {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+                }
+
+.btn-custom-class {
+    border-color: rgba(96, 0, 0, 0.233);
+}
+
+.btn-custom-class:hover {
+    background-color: rgba(16, 192, 0, 0.4);
+    box-shadow: rgb(109, 88, 0) 0 1px 1px;
 }

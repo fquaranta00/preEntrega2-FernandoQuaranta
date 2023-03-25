@@ -1,80 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<!-- bootstrap -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- inicio bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    >
+    <!-- fin bootstrap link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/img/at-sign-mediano.png" type="image/x-icon">
     <title>2daEntrega - GestionPROFESIONAL</title>
-</head>
-<body>
-    
-<!-- inicio navBar bootstrap -->
+  </head>
+  <body>
+    <!-- inicio navBar bootstrap -->
 
-<nav class="navbar navbar-expand-sm navbar-expand-lg navbar-light bg-light nav-color">
-
-  <!-- Just an image -->
-<div class="navbar navbar-light bg-light p-0 contenedor-logo">
-  <a class="navbar-brand imagen-marca" href="#">
-    <img src="./assets/img/at-sign-mediano.png" alt="imagen arroba">
-  </a>
-</div>
-
-<!-- fin Just an image -->
-
-
-  <a class="navbar-brand mr-5 marca" href="#">Gestión<strong>PROFESIONAL</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse nav-list" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Nosotros</a>
-      </li>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
+    <nav
+      class="navbar navbar-expand-sm navbar-expand-lg navbar-light"
+    >
+      
+    <!-- inicio logo -->
+      
+      <div class="navbar navbar-light bg-light p-0">
+        <a class="navbar-brand imagen-marca p-0 m-0 logo" href="#">
+          <img src="./assets/img/at-sign-mediano.png" alt="imagen arroba" />
         </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
-      </li> -->
-    </ul>
-    <form class="form-inline my-2 my-sm-0 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Ingrese consulta.." aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
+      </div>
 
-<!--  fin navBar bootstrap-->
+      <!-- fin logo  -->
 
 
+      <a class="navbar-brand ml-2 mr-5 marca" href="#"
+        >Gestión<strong>PROFESIONAL</strong></a
+      >
+      <button
+        class="navbar-toggler nav-desplegable"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon nav-tog-icono"></span>
+      </button>
 
+      <div
+        class="collapse navbar-collapse nav-list"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto nav-lista">
+          <li class="nav-item">
+            <a class="nav-link nav-pag" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-pag" href="#">Productos</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-sm-0 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Ingrese consulta.."
+            aria-label="Search"
+          />
+          <button class="btn btn-custom-class my-2 my-sm-0" type="submit">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </nav>
 
+    <!--  fin navBar bootstrap-->
 
+    <!-- Script Bootstrap css y js -->
 
-<!-- Script Bootstrap css y js -->
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- fin bootstrap css y js -->
-
-</body>
+  </body>
 </html>
