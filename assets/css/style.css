@@ -25,11 +25,6 @@
   background-color: rgb(192, 255, 115);
   border: 0px;
 }
-/* 
-.nav-tog-icono {
-    background-image: url(
-        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-                } */
 
 .btn-custom-class {
   border-color: rgba(96, 0, 0, 0.233);
@@ -80,6 +75,35 @@
   background-color: #af4ec053;
   width: 10%;
 }
+
+
+.jumbo-pag-prod {
+  background-image: linear-gradient(
+      rgba(129, 132, 91, 0.459),
+      rgba(201, 154, 240, 0.283)
+    ),
+    url(../img/genteesperandoensala.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 850px;
+}
+
+
+.prod-text {
+  color: #132d00;
+  background-color: #eef8ffa0;
+  padding: 10px;
+  box-shadow: 28px 18px 28px rgba(14, 57, 65, 0.502);
+}
+
+.list-prod-1, .list-prod-2 {
+  list-style: none;
+} 
+
+
+
 
 .quienes-back {
   background-color: rgba(2, 108, 21, 0.185);
