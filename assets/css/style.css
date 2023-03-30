@@ -96,10 +96,12 @@
   background-color: #eef8ffa0;
   padding: 10px;
   box-shadow: 28px 18px 28px rgba(14, 57, 65, 0.502);
+  border: 1px solid black;
 }
 
-.list-prod-1, .list-prod-2 {
+.list-prod-1, .list-prod-2, .list-prod-3 {
   list-style: none;
+  background-color: rgba(137, 43, 226, 0.237);
 } 
 
 
