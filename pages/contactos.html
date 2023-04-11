@@ -12,10 +12,10 @@
       crossorigin="anonymous"
     />
     <!-- fin bootstrap link -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <link
       rel="shortcut icon"
-      href="./assets/img/at-sign-mediano.png"
+      href="../assets/img/at-sign-mediano.png"
       type="image/x-icon"
     />
     <link
@@ -23,7 +23,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <title>2daEntrega - GestionPROFESIONAL</title>
+    <title>2daEntrega - GestionPROFESIONAL - Productos</title>
   </head>
   <body>
     <!-- inicio navBar bootstrap -->
@@ -33,7 +33,7 @@
 
       <div class="navbar navbar-light bg-light p-0">
         <a class="navbar-brand imagen-marca p-0 m-0 logo" href="#">
-          <img src="./assets/img/at-sign-mediano.png" alt="imagen arroba" />
+          <img src="../assets/img/at-sign-mediano.png" alt="imagen arroba" />
         </a>
       </div>
 
@@ -60,20 +60,21 @@
       >
         <ul class="navbar-nav mr-auto nav-lista">
           <li class="nav-item">
-            <a class="nav-link nav-pag" href="#">Inicio</a>
+            <a class="nav-link nav-pag" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-pag" href="./pages/productos.html">Productos</a>
+            <a class="nav-link nav-pag" href="./productos.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-pag" href="./pages/empresa.html">Empresa</a>
+            <a class="nav-link nav-pag" href="../pages/empresa.html">Empresa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-pag" href="./pages/contactos.html">Contacto</a>
+            <a class="nav-link nav-pag" href="../pages/contactos.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-pag" href="./pages/descargas.html">Descargas</a>
+            <a class="nav-link nav-pag" href="../pages/descargas.html">Descargas</a>
           </li>
+
         </ul>
         <form class="form-inline my-2 my-sm-0 my-lg-0">
           <input
@@ -91,52 +92,34 @@
 
     <!--  fin navBar bootstrap-->
 
-    <!-- jumbotron inicia -->
-    <div class="jumbotron jumbo-prod">
-      <h1>GestiPro.1</h1>
-      <p>
-        <strong>Simplicidad </strong> y utilidad para profesionales del siglo de
-        XXI.<br />Nuestra herramienta lleva la
-        <strong>gestión</strong> personal/profesional a otro plano.
-      </p>
-      <a href="./pages/productos.html"><button type="button" class="btn btn-success">Mas info</button></a>
-    </div>
-    <!-- jumbotron finaliza -->
+  <main class="divContactos">
+    <h2 class="titulomensajeContacto">Deje su mensaje, será contestado a la brevedad.</strong></h2>
+    <div class="bloqueMensaje">
+      <form action="#" method="post">
+        <label for="name"></label>
+        <input type="text" id="name" name="name" required placeholder="Nombre">
 
-    <!-- nosotros inicia -->
-    <div class="container-fluid p-3 quienes-back">
-      <div class="row">
-        <aside class="nleft col-sm-12 col-md-6"></aside>
-        <aside class="nright col-sm-12 col-md-6">
-          <h3>Quienes somos</h3>
-          <p>
-            En <strong>Gestion<em>PROFESIONAL</em></strong> somos una empresa comprometida con la vocación de ayudar a los profesionales en su crecimiento y desarrollo. Nuestro enfoque se centra en la simplicidad y la funcionalidad de todo lo que hacemos, lo que nos permite ofrecer soluciones prácticas y efectivas. Además, nos guían valores fundamentales como el cuidado de las personas, lo que nos permite establecer relaciones duraderas y significativas con nuestros clientes y colaboradores.
-          </p>
-          <button type="button" class="btn btn-success mb-3">Mas info</button>
-        </aside>
-      </div>
-    </div>
-    <!-- nosotros finaliza -->
+        <label for="email"></label>
+        <input type="email" id="email" name="email" required placeholder="Correo">
 
-    <!-- jumbotron inicia -->
-    <div class="jumbotron gest-video">
-      <h2>Potencia tu desarrollo a través de la <span>Gestión</span></h2>
-      <p>
-        Sabes como se trabaja gestionando? <br/>Nuestra herramienta lleva la gestión
-        personal/profesional a <em>otro plano</em>.
-      </p>
-      <div class="video mt-5">
-        <iframe
-          src="https://www.youtube.com/embed/GyI5ps96DXI"
-          title="Metodologías de gestión de proyectos de desarrollo de software"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <!-- <button type="button" class="btn btn-success">Mas info</button> -->
-      </div>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="4" required placeholder="Mensaje"></textarea>
+        <input type="submit" value="Enviar" class="botonenviarContacto">
+      </form>
     </div>
-    <!-- jumbotron finaliza -->
+    
+    <div class="bloqueContacto">
+      <p><strong><br>
+        Av. Corrientes 123 (CX5689)<br>
+        Villa Paravachasca<br>
+        Teléfono: 54(351) 324 4542<br>
+        Mail: gestion.profesional@gmail.com<br></strong>
+      </p>
+    </div>
+
+  </main>
+
+
 
     <!-- Site footer -->
     <footer class="site-footer">
